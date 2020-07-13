@@ -8,12 +8,12 @@ PlayerSettings:
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
-  defaultScreenOrientation: 4
+  defaultScreenOrientation: 3
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: HoloFabRestructured
+  companyName: HoloFab
+  productName: HoloFab
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -39,14 +39,17 @@ PlayerSettings:
     y: 0
     width: 1
     height: 1
-  m_SplashScreenLogos: []
-  m_VirtualRealitySplashScreen: {fileID: 0}
+  m_SplashScreenLogos:
+  - logo: {fileID: 21300000, guid: 0560e3f2d8baa7f4480ce8c85ebd2d89, type: 3}
+    duration: 2
+  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: 0560e3f2d8baa7f4480ce8c85ebd2d89,
+    type: 3}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1024
   defaultScreenHeight: 768
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
-  m_StereoRenderingPath: 0
+  m_StereoRenderingPath: 2
   m_ActiveColorSpace: 0
   m_MTRendering: 1
   m_StackTraceTypes: 010000000100000001000000010000000100000001000000
@@ -54,8 +57,8 @@ PlayerSettings:
   androidShowActivityIndicatorOnLoading: -1
   iosUseCustomAppBackgroundBehavior: 0
   iosAllowHTTPDownload: 1
-  allowedAutorotateToPortrait: 1
-  allowedAutorotateToPortraitUpsideDown: 1
+  allowedAutorotateToPortrait: 0
+  allowedAutorotateToPortraitUpsideDown: 0
   allowedAutorotateToLandscapeRight: 1
   allowedAutorotateToLandscapeLeft: 1
   useOSAutorotation: 1
@@ -121,7 +124,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1.0
+  bundleVersion: 2.0
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -160,7 +163,7 @@ PlayerSettings:
   useHDRDisplay: 0
   D3DHDRBitDepth: 0
   m_ColorGamuts: 00000000
-  targetPixelDensity: 0
+  targetPixelDensity: 30
   resolutionScalingMode: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
@@ -182,10 +185,10 @@ PlayerSettings:
   StripUnusedMeshComponents: 0
   VertexChannelCompressionMask: 4054
   iPhoneSdkVersion: 988
-  iOSTargetOSVersionString: 
+  iOSTargetOSVersionString: 10.0
   tvOSSdkVersion: 0
   tvOSRequireExtendedGameController: 0
-  tvOSTargetOSVersionString: 
+  tvOSTargetOSVersionString: 10.0
   uIPrerenderedIcon: 0
   uIRequiresPersistentWiFi: 0
   uIRequiresFullScreen: 1
@@ -259,13 +262,24 @@ PlayerSettings:
   androidGamepadSupportLevel: 0
   AndroidValidateAppBundleSize: 1
   AndroidAppBundleSizeToValidate: 150
-  m_BuildTargetIcons: []
+  m_BuildTargetIcons:
+  - m_BuildTarget: 
+    m_Icons:
+    - serializedVersion: 2
+      m_Icon: {fileID: 2800000, guid: 120ece3e09b463a478a7c4c03878ef48, type: 3}
+      m_Width: 128
+      m_Height: 128
+      m_Kind: 0
   m_BuildTargetPlatformIcons: []
   m_BuildTargetBatching: []
   m_BuildTargetGraphicsJobs: []
   m_BuildTargetGraphicsJobMode: []
   m_BuildTargetGraphicsAPIs: []
-  m_BuildTargetVRSettings: []
+  m_BuildTargetVRSettings:
+  - m_BuildTarget: Windows Store Apps
+    m_Enabled: 1
+    m_Devices:
+    - WindowsMR
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   openGLRequireES32: 0
@@ -509,7 +523,7 @@ PlayerSettings:
     1: 
     4: 
     7: 
-    14: 
+    14: master
   platformArchitecture: {}
   scriptingBackend: {}
   il2cppCompilerConfiguration: {}
@@ -518,25 +532,60 @@ PlayerSettings:
   allowUnsafeCode: 0
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
-  gcIncremental: 0
+  gcIncremental: 1
   gcWBarrierValidation: 0
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: HoloFabRestructured
-  metroPackageVersion: 
-  metroCertificatePath: 
+  metroPackageName: HoloFab
+  metroPackageVersion: 2.0.4.0
+  metroCertificatePath: Assets/WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: HoloFabRestructured
-  wsaImages: {}
-  metroTileShortName: 
+  metroCertificateSubject: HoloFab
+  metroCertificateIssuer: HoloFab
+  metroCertificateNotAfter: 00086bfd05e3d601
+  metroApplicationDescription: HoloFab
+  wsaImages:
+    65636: Assets/Unity/Resources/HoloFab_Icon_50.png
+    65661: Assets/Unity/Resources/HoloFab_Icon_63.png
+    65686: Assets/Unity/Resources/HoloFab_Icon_75.png
+    65736: Assets/Unity/Resources/HoloFab_Icon_100.png
+    65936: Assets/Unity/Resources/HoloFab_Icon_200.png
+    131172: Assets/Unity/Resources/HoloFab_Icon_620x300.png
+    131197: Assets/Unity/Resources/HoloFab_Icon_775x375.png
+    131222: Assets/Unity/Resources/HoloFab_Icon_930x450.png
+    131272: Assets/Unity/Resources/HoloFab_Icon_1240x600.png
+    2031632: Assets/Unity/Resources/HoloFab_Icon_16.png
+    2031640: Assets/Unity/Resources/HoloFab_Icon_24.png
+    2031648: Assets/Unity/Resources/HoloFab_Icon_32.png
+    2031664: Assets/Unity/Resources/HoloFab_Icon_48.png
+    2031716: Assets/Unity/Resources/HoloFab_Icon_44.png
+    2031741: Assets/Unity/Resources/HoloFab_Icon_55.png
+    2031766: Assets/Unity/Resources/HoloFab_Icon_66.png
+    2031816: Assets/Unity/Resources/HoloFab_Icon_88.png
+    2031872: Assets/Unity/Resources/HoloFab_Icon_256.png
+    2097252: Assets/Unity/Resources/HoloFab_Icon_71.png
+    2097277: Assets/Unity/Resources/HoloFab_Icon_89.png
+    2097302: Assets/Unity/Resources/HoloFab_Icon_107.png
+    2097352: Assets/Unity/Resources/HoloFab_Icon_142.png
+    2162788: Assets/Unity/Resources/HoloFab_Icon_150.png
+    2162813: Assets/Unity/Resources/HoloFab_Icon_188.png
+    2162838: Assets/Unity/Resources/HoloFab_Icon_225.png
+    2162888: Assets/Unity/Resources/HoloFab_Icon_300.png
+    2228324: Assets/Unity/Resources/HoloFab_Icon_310.png
+    2228349: Assets/Unity/Resources/HoloFab_Icon_388.png
+    2228374: Assets/Unity/Resources/HoloFab_Icon_465.png
+    2228424: Assets/Unity/Resources/HoloFab_Icon_620.png
+    2293860: Assets/Unity/Resources/HoloFab_Icon_310x150.png
+    2293885: Assets/Unity/Resources/HoloFab_Icon_388x188.png
+    2293910: Assets/Unity/Resources/HoloFab_Icon_465x225.png
+    2293960: Assets/Unity/Resources/HoloFab_Icon_620x300.png
+    2294160: Assets/Unity/Resources/HoloFab_Icon_1240x600.png
+  metroTileShortName: HoloFab
   metroTileShowName: 0
-  metroMediumTileShowName: 0
-  metroLargeTileShowName: 0
-  metroWideTileShowName: 0
+  metroMediumTileShowName: 1
+  metroLargeTileShowName: 1
+  metroWideTileShowName: 1
   metroSupportStreamingInstall: 0
   metroLastRequiredScene: 0
   metroDefaultTileSize: 1
@@ -545,8 +594,54 @@ PlayerSettings:
   metroSplashScreenBackgroundColor: {r: 0.12941177, g: 0.17254902, b: 0.21568628,
     a: 1}
   metroSplashScreenUseBackgroundColor: 0
-  platformCapabilities: {}
-  metroTargetDeviceFamilies: {}
+  platformCapabilities:
+    WindowsStoreApps:
+      AllJoyn: False
+      Appointments: False
+      BackgroundMediaPlayback: False
+      BlockedChatMessages: False
+      Bluetooth: False
+      Chat: False
+      CodeGeneration: False
+      Contacts: False
+      EnterpriseAuthentication: False
+      GazeInput: True
+      HumanInterfaceDevice: False
+      InputInjectionBrokered: False
+      InternetClient: True
+      InternetClientServer: True
+      Location: False
+      LowLevelDevices: False
+      Microphone: True
+      MusicLibrary: False
+      Objects3D: False
+      OfflineMapsManagement: False
+      PhoneCall: False
+      PhoneCallHistoryPublic: False
+      PicturesLibrary: False
+      PointOfService: False
+      PrivateNetworkClientServer: True
+      Proximity: False
+      RecordedCallsFolder: False
+      RemoteSystem: False
+      RemovableStorage: False
+      SharedUserCertificates: False
+      SpatialPerception: True
+      SystemManagement: False
+      UserAccountInformation: False
+      UserDataTasks: False
+      UserNotificationListener: False
+      VideosLibrary: False
+      VoipCall: False
+      WebCam: False
+  metroTargetDeviceFamilies:
+    Desktop: False
+    Holographic: True
+    IoT: False
+    IoTHeadless: False
+    Mobile: False
+    Team: False
+    Xbox: False
   metroFTAName: 
   metroFTAFileTypes: []
   metroProtocolName: 
