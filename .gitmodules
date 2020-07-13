@@ -1,6 +1,0 @@
-[submodule "Assets/HoloFab2-Split-Unity"]
-	path = Assets/HoloFab2-Split-Unity
-	url = https://github.com/HoloFab/HoloFab2-Split-Unity.git
-[submodule "Assets/HoloFab2-Split-General"]
-	path = Assets/HoloFab2-Split-General
-	url = https://github.com/HoloFab/HoloFab2-Split-General.git
