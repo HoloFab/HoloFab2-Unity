@@ -21,6 +21,8 @@ TagManager:
   - CPlane
   - labels
   - Counter
+  - ManipulationSystem
+  - ObjectManager
   layers:
   - Default
   - TransparentFX
@@ -30,7 +32,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Spatial Awareness
   - 
   - 
   - 

@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Hololens/Scenes/HolofabHololens.unity
+    guid: 35fe455ba2c23d04f803867318dd4f5e
   m_configObjects: {}
