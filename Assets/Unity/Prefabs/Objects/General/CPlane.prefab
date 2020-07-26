@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4440895834431410230}
   m_Layer: 0
   m_Name: XY
-  m_TagString: CPlaneZ
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 1656539510535353078}
   m_Layer: 0
   m_Name: R
-  m_TagString: CPlaneZ
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 8822385818579860115}
   m_Layer: 0
   m_Name: C-Text
-  m_TagString: CPlaneXYR
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -331,7 +331,7 @@ GameObject:
   - component: {fileID: 7972335107485531202}
   m_Layer: 0
   m_Name: R-Text
-  m_TagString: CPlaneXYR
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -609,7 +609,7 @@ GameObject:
   - component: {fileID: 7062494741725614205}
   m_Layer: 0
   m_Name: XY-Text
-  m_TagString: CPlaneXYR
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -842,7 +842,7 @@ GameObject:
   - component: {fileID: 1573468165401004175}
   m_Layer: 0
   m_Name: Z-Text
-  m_TagString: CPlaneXYR
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1574,7 +1574,7 @@ GameObject:
   - component: {fileID: 3663818650075733215}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: CPlaneXY
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1733,7 +1733,7 @@ GameObject:
   - component: {fileID: 2771792205822605270}
   m_Layer: 0
   m_Name: C
-  m_TagString: CPlaneZ
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1872,7 +1872,7 @@ GameObject:
   - component: {fileID: 3368693362658379123}
   m_Layer: 0
   m_Name: Z
-  m_TagString: CPlaneZ
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -121,8 +121,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f33ac76a2e3f74f4a8c6c76ae88f0f4f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   robotController: {fileID: 711947785298371381}
   axisIndex: 4
 --- !u!1 &702843627896159003
@@ -324,8 +324,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f33ac76a2e3f74f4a8c6c76ae88f0f4f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   robotController: {fileID: 711947785298371381}
   axisIndex: 3
 --- !u!1 &1277161774933574774
@@ -340,7 +340,7 @@ GameObject:
   - component: {fileID: 711947785298371381}
   m_Layer: 0
   m_Name: RobotController
-  m_TagString: Axis
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -371,8 +371,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b15bb8c9f8845614ebc1b40efed21dca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   robotID: 0
   axis:
   - 0
@@ -502,8 +502,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f33ac76a2e3f74f4a8c6c76ae88f0f4f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   robotController: {fileID: 711947785298371381}
   axisIndex: 6
 --- !u!1 &4936082238198591481
@@ -627,8 +627,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f33ac76a2e3f74f4a8c6c76ae88f0f4f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   robotController: {fileID: 711947785298371381}
   axisIndex: 5
 --- !u!1 &6775070543030540596
@@ -752,8 +752,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f33ac76a2e3f74f4a8c6c76ae88f0f4f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   robotController: {fileID: 711947785298371381}
   axisIndex: 2
 --- !u!1 &8076200126170897127
@@ -908,8 +908,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f33ac76a2e3f74f4a8c6c76ae88f0f4f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   robotController: {fileID: 711947785298371381}
   axisIndex: 1
 --- !u!1001 &2883904617572016798
@@ -982,7 +982,7 @@ PrefabInstance:
     - target: {fileID: 3233087451004536913, guid: 1d33e119d55a05240a1c2c428a66af27,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
-      value: 
+      value:
       objectReference: {fileID: 2100000, guid: 7da37583e0962654c8935a51e08954ab, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d33e119d55a05240a1c2c428a66af27, type: 3}
