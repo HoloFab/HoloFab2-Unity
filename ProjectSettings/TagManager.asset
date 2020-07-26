@@ -5,58 +5,51 @@ TagManager:
   serializedVersion: 2
   tags:
   - ObjectManager
-  - ReceivedMesh
-  - ReceivedMeshPlus
-  - Toggle
-  - Counter
-  - Slider
+  - MeshTCP
+  - MeshUDP
+  - CPlane
+  - Point3D
+  - Label
   - Kuka_KR150
   - ABB_120
   - ABB_140
-  - tool_Object
-  - CPlane
-  - CPlaneXY
-  - CPlaneZ
-  - CPlaneXYR
-  - Point3D
-  - Point3DPlaneXY
-  - Point3DToggle
-  - ManipulationSystem
-  - labels
-  - Axis
+  - RobotTool
+  - Toggle
+  - Counter
+  - Slider
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  -
+  - 
   - Water
   - UI
-  -
-  -
+  - 
+  - 
   - Spatial Awareness
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   m_SortingLayers:
   - name: Default
     uniqueID: 0
