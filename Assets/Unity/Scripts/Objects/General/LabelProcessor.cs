@@ -46,6 +46,7 @@ namespace HoloFab {
 					labelInstance = Instantiate(this.goPrefabLabel, ObjectManager.instance.cPlane.transform.position,
 					                            ObjectManager.instance.cPlane.transform.rotation,
 					                            ObjectManager.instance.cPlane.transform);
+					labelInstance.tag = tagLabel;
 				}
                 
 				// Prepare Values
