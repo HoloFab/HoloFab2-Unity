@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4891256154632985263}
   m_Layer: 0
   m_Name: RobotController
-  m_TagString: Axis
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -154,6 +154,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -232,6 +233,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -404,6 +406,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -529,6 +532,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -607,6 +611,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -732,6 +737,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -810,6 +816,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -919,15 +926,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6484671831821877246}
     m_Modifications:
+    - target: {fileID: -7973510102626221053, guid: 49562bf9dd7543140b87807322fcbe9d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7da37583e0962654c8935a51e08954ab, type: 2}
     - target: {fileID: 6371473079341992093, guid: 49562bf9dd7543140b87807322fcbe9d,
         type: 3}
       propertyPath: m_Name
       value: ABB140EndEffector
-      objectReference: {fileID: 0}
-    - target: {fileID: 6371473079341992093, guid: 49562bf9dd7543140b87807322fcbe9d,
-        type: 3}
-      propertyPath: m_TagString
-      value: tool_Object
       objectReference: {fileID: 0}
     - target: {fileID: 7054073258949087298, guid: 49562bf9dd7543140b87807322fcbe9d,
         type: 3}
@@ -984,11 +991,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -7973510102626221053, guid: 49562bf9dd7543140b87807322fcbe9d,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7da37583e0962654c8935a51e08954ab, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49562bf9dd7543140b87807322fcbe9d, type: 3}
 --- !u!4 &6291573912491183314 stripped

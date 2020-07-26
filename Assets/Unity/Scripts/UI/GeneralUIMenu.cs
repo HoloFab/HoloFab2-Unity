@@ -83,7 +83,7 @@ namespace HoloFab {
 			#endif
 			ObjectManager.instance.gameObject.GetComponent<MeshProcessor>().DeleteMeshes(SourceType.TCP);
 			ObjectManager.instance.gameObject.GetComponent<MeshProcessor>().DeleteMeshes(SourceType.UDP);
-			ObjectManager.instance.gameObject.GetComponent<TagProcessor>().DeleteTags();
+			ObjectManager.instance.gameObject.GetComponent<LabelProcessor>().DeleteLabels();
 			ObjectManager.instance.gameObject.GetComponent<RobotProcessor>().DeleteRobots();
 			ObjectManager.instance.gameObject.GetComponent<Point3DProcessor>().DeletePoints();
 		}

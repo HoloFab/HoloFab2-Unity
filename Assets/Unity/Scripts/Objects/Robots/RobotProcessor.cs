@@ -18,7 +18,7 @@ namespace HoloFab {
 		// Dictionary not serializable in unity. Otherwise better to have them as dictionary of name to robotexample
         
 		// - Tool tag
-		private string tagTool = "tool_Object";
+		public string tagTool = "RobotTool";
 		// - Keep track of robots by ids.
 		[HideInInspector]
 		public Dictionary<int, GameObject> robotsInstantiated = new Dictionary<int, GameObject>();

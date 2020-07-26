@@ -19,8 +19,8 @@ namespace HoloFab {
 		// [Tooltip("An Prefab of a mesh.")]
 		// public GameObject goPrefabMeshPlus;
 		// - Generated Object Tags.
-		private string tagMesh = "ReceivedMesh";
-		private string tagMeshPlus = "ReceivedMeshPlus";
+		public string tagMesh = "MeshTCP";
+		public string tagMeshPlus = "MeshUDP";
         
 		// Decode Received Data.
 		public void ProcessMesh(List<MeshData> receivedMeshes, SourceType sourceType) {
@@ -55,11 +55,14 @@ namespace HoloFab {
 			}
 			goRelevantMeshes = GameObject.FindGameObjectsWithTag(currentTag);
             
-			List<Vector3> currentVertices = new List<Vector3>();
-			List<int> currentFaces = new List<int>();
-			List<Color> currentColors = new List<Color>();
+			List<Vector3> currentVertices;
+			List<int> currentFaces;
+			List<Color> currentColors;
 			// Loop through all received meshes.
 			for (int i = 0; i < receivedMeshes.Count; i++) {
+				currentVertices = new List<Vector3>();
+				currentFaces = new List<int>();
+				currentColors = new List<Color>();
 				// Condition Vertex based data (points and colors). // Later: normals etc.
 				for (int j = 0; j < receivedMeshes[i].vertices.Count; j++) {
 					currentVertices.Add(new Vector3(receivedMeshes[i].vertices[j][0],
@@ -87,7 +90,7 @@ namespace HoloFab {
                 
 				// Set Values
 				GameObject meshInstance;
-				if (i < goRelevantMeshes.Length) {
+				if (i < goRelevantMeshes.Length) { // TODO: Should be some sort of ID not orders
 					#if DEBUG
 					Debug.Log("Mesh: Updating old Mesh");
 					#endif
@@ -97,6 +100,7 @@ namespace HoloFab {
 					Debug.Log("Mesh: Adding new Mesh");
 					#endif
 					meshInstance = Instantiate(currentPrefab, ObjectManager.instance.cPlane.transform.position, ObjectManager.instance.cPlane.transform.rotation, ObjectManager.instance.cPlane.transform);
+					meshInstance.tag = currentTag;
 				}
 				meshInstance.GetComponent<Renderer>().material.SetFloat("_ShadowStrength", 1.0f);
 				meshInstance.GetComponent<Renderer>().material.SetFloat("_Alpha", alpha);
@@ -112,7 +116,7 @@ namespace HoloFab {
 			}
 		}
 		// Delete Tags Starting from Last Index.
-		public void DeleteMeshes(SourceType sourceType, int lastIndex = 0) {
+		public void DeleteMeshes(SourceType sourceType, int lastIndex=0) {
 			GameObject[] goRelevantMeshes;
 			switch (sourceType) {
 			 case (SourceType.TCP):

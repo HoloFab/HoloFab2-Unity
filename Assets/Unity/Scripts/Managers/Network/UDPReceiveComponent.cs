@@ -67,7 +67,7 @@ namespace HoloFab {
 							InterpreteRobotController(content);
 							return true;
 						} else if (header == "HOLOTAG") {
-							InterpreteTag(content);
+							InterpreteLabel(content);
 							return true;
 						} else if(header == "IPADDRESS") {
 							InterpreteIPAddress(content);
@@ -101,8 +101,8 @@ namespace HoloFab {
 					processor.robotsInstantiated[controllerData.robotID].GetComponentInChildren<RobotController>().ProcessRobotController(controllerData);
 		}
 		// - Tag
-		private void InterpreteTag(string data){
-			ObjectManager.instance.GetComponent<TagProcessor>().ProcessTag(EncodeUtilities.InterpreteTag(data));
+		private void InterpreteLabel(string data){
+			ObjectManager.instance.GetComponent<LabelProcessor>().ProcessTag(EncodeUtilities.InterpreteLabel(data));
 		}
 		// - IP address
 		private void InterpreteIPAddress(string data){

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 901563260227370703}
   m_Layer: 0
   m_Name: R-Text
-  m_TagString: CPlaneXYR
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -327,7 +327,7 @@ GameObject:
   - component: {fileID: 4195651737748855925}
   m_Layer: 0
   m_Name: Z-Text
-  m_TagString: CPlaneXYR
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -831,7 +831,7 @@ GameObject:
   - component: {fileID: 2183236550850563130}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: Point3DPlaneXY
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1117,7 +1117,7 @@ GameObject:
   - component: {fileID: 3684485545961060788}
   m_Layer: 0
   m_Name: R
-  m_TagString: CPlaneZ
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1177,7 +1177,7 @@ GameObject:
   - component: {fileID: 2647430179496326341}
   m_Layer: 0
   m_Name: XY
-  m_TagString: CPlaneZ
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1236,7 +1236,7 @@ GameObject:
   - component: {fileID: 7589233994365962077}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: CPlaneXY
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1282,7 +1282,7 @@ GameObject:
   - component: {fileID: 910018834954184056}
   m_Layer: 0
   m_Name: XY-Text
-  m_TagString: CPlaneXYR
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1482,7 +1482,7 @@ GameObject:
   - component: {fileID: 1060703026831426194}
   m_Layer: 0
   m_Name: SnapTrigger
-  m_TagString: Point3DToggle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1806,7 +1806,7 @@ GameObject:
   - component: {fileID: 4943932100051487397}
   m_Layer: 0
   m_Name: z
-  m_TagString: CPlaneZ
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1917,7 +1917,7 @@ GameObject:
   - component: {fileID: 1513997888713827358}
   m_Layer: 0
   m_Name: Z
-  m_TagString: CPlaneZ
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

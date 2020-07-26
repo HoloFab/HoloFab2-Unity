@@ -26,7 +26,7 @@ namespace HoloFab {
 	// - Later: Move processors here?
 	[RequireComponent(typeof(MeshProcessor))]
 	[RequireComponent(typeof(RobotProcessor))]
-	[RequireComponent(typeof(TagProcessor))]
+	[RequireComponent(typeof(LabelProcessor))]
 	[RequireComponent(typeof(Point3DProcessor))]
 	public class ObjectManager : Type_Manager<ObjectManager> {
 		// - CPlane object tag.
