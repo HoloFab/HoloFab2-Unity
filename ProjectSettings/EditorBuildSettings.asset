@@ -5,10 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/ARCore/Scenes/HolofabAndroid.unity
     guid: 75d600c8a9237bd41ad755fbdd6a9a26
-  m_configObjects: {}
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 4a9716291f8a4fa4e869ff5ddd410faa,
+      type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: e5f65d3e57e9c7f488ad4ee69799169e,
+      type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 816293980aa83464a8cbbf675c46f0af,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f59ca7485a6c1c64abab536aa1e6d85f,
+      type: 2}
