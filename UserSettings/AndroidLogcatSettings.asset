@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "831e9bda",
+    "m_SelectedDeviceId": "P3127E006353",
     "m_SelectedPackage": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "P3127E006353",
+        "name": "com.HoloFab.HoloFab",
+        "processId": 1696,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -24,6 +24,24 @@
             "deviceId": "831e9bda",
             "name": "com.unity3d.mobileremote",
             "processId": 31830,
+            "exited": false
+        },
+        {
+            "deviceId": "P3127E006353",
+            "name": "com.HoloFab.HoloFab",
+            "processId": 30179,
+            "exited": true
+        },
+        {
+            "deviceId": "P3127E006353",
+            "name": "com.HoloFab.HoloFab",
+            "processId": 32517,
+            "exited": true
+        },
+        {
+            "deviceId": "P3127E006353",
+            "name": "com.HoloFab.HoloFab",
+            "processId": 1696,
             "exited": false
         }
     ],
